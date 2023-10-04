@@ -43,3 +43,5 @@ node_modules/
 docs/CHANGELOG.md
 .vscode
 roblox.toml
+sourcemap.json
+build

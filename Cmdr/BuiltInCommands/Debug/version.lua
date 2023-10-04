@@ -1,4 +1,4 @@
-local version = "v1.11.0"
+local version = "v1.12.0"
 
 return {
 	Name = "version",
@@ -6,7 +6,7 @@ return {
 	Description = "Shows the current version of Cmdr",
 	Group = "DefaultDebug",
 
-	Run = function()
+	ClientRun = function()
 		return ("Cmdr Version %s"):format(version)
 	end,
 }
